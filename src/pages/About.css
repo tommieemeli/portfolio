@@ -1,0 +1,79 @@
+:root {
+    --shadow-color: #f074f0;
+    --shadow-color-light: white;
+  }
+
+h1 {
+    font-size: 4em;
+    color: white;
+    animation: neon 3s infinite;
+}
+
+@keyframes neon {
+  0% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+  50% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+    0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+  }
+  100% {
+    text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+    0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+    0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+  }
+}
+
+h4 {
+    color: rgb(226, 158, 253);
+}
+
+h2 {
+    color: white;
+}
+
+b {
+    color: white;
+}
+
+.hederi {
+    padding: 2rem;
+}
+
+.fab {
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.fab:hover {
+    color: #c357c7;
+    transition: all 0.4s ease-out;
+}
+
+.kuva {
+    border-radius: 50%;
+}
+
+.inffot {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.kuva-col {
+    margin: 2rem;
+}
+
+.info-col {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.info-col1 {
+    margin: 2rem;
+    padding: 1rem;
+}
